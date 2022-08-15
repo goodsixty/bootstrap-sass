@@ -1,5 +1,5 @@
 require 'bootstrap-sass/version'
-module Bootstrap
+module Bootstrap3
   class << self
     # Inspired by Kaminari
     def load!
@@ -91,4 +91,4 @@ module Bootstrap
   end
 end
 
-Bootstrap.load!
+Bootstrap3.load!
